@@ -1,5 +1,5 @@
 # Basics
-
+print("----------------Strings-------------------")
 #
 str_string="Hello "
 str_int= 100
@@ -9,6 +9,9 @@ print(str_string)
 print(str_int)
 
 print(str_int , str_string)
+
+print("--------------Lists-------------------")
+
 
 #lists = order list of items.
 number_list=[1,2,3,4]
@@ -47,10 +50,19 @@ print("list items ", len(char_list))
 
 
 
-print("---------------------------------------")
+print("----------------Tuples-------------------")
 char_list=("a","b","c","d","e","f")
 print(type(char_list))
 print(char_list)
-print("list items ", len(char_list))
+print("Tuple items ", len(char_list))
 print(char_list[2]) ##index item.
+
+
+print("----------------Tuples-------------------")
+
+print(list(range(20))) #creating a list of values
+print(list(range(0,20,2))) #creating a list of even numbers
+
+
+
 

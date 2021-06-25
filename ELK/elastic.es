@@ -1,0 +1,1 @@
+Get _cluster/health
